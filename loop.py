@@ -1,9 +1,9 @@
-
-i=0
-while i<10:
-   if i== 5:
-     i += 1
-     continue 
-
-   print(i)
-   i += 1
+correct_pass="some_pass"
+not_found = True
+while not_found:
+ string = input("enter a string:")
+ if string == correct_pass:
+    not_found = False
+else:
+    print("wrong password try again!")
+print("password") 
