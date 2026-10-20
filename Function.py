@@ -1,3 +1,3 @@
 def greet(name):
-    print("hello",name)
+    print("Hello",name)
 greet("shravani")
