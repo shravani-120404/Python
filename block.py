@@ -1,6 +1,6 @@
 # block in python
 if True:
-    print("inside block")
+    print("Inside block")
 print("outside block")
 
 #if=execute if cond is true
@@ -9,11 +9,11 @@ print("outside block")
 x=0
 #x=int(input("enter"))
 if x>0:
-    print("positive")
+    print("Positive")
 elif x==0:
     print("zero")
 else:
-    print("negative")
+    print("Negative")
 
 #while loop
 print("while loop")
